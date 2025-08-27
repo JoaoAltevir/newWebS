@@ -39,7 +39,7 @@ function contArray($nums = []):int{
 function media($nums = []){
     $quantNumeros = contArray($nums);
     $total = 0;
-    for($i = 0; $i < $nums; $i++):
+    for($i = 0; $i < contArray($nums); $i++):
         $total += $nums[$i];
     endfor;
 
